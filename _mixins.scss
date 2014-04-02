@@ -16,12 +16,12 @@
 //     @include font-size(10px);
 // }
 //
-@mixin tree-font-size($tree-font-size, $tree-line-height: true) {
-    font-size: $tree-font-size;
-    font-size: ($tree-font-size / $tree-base-font-size) * 1rem;
+@mixin font-size($font-size, $line-height: true) {
+    font-size: $font-size;
+    font-size: ($font-size / $tree-base-font-size) * 1rem;
 
-    @if $tree-line-height == true {
-        line-height: ceil($tree-font-size / $tree-base-line-height) * ($tree-base-line-height / $tree-font-size);
+    @if $line-height == true {
+        line-height: ceil($font-size / $tree-base-line-height) * ($tree-base-line-height / $font-size);
     }
 
 }

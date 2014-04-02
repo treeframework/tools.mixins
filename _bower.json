@@ -1,0 +1,15 @@
+{
+  "name": "tree-mixins",
+  "version": "0.1.0",
+  "homepage": "https://github.com/treeframework/tools.mixins",
+  "authors": [
+    "Ilia Kolev <treeframework@iliakolev.com>"
+  ],
+  "description": "TreeFramework - default mixins",
+  "main": "_mixins.scss",
+  "keywords": [
+    "TreeFramework",
+    "css"
+  ],
+  "license": "MIT"
+}

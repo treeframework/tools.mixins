@@ -1,0 +1,27 @@
+///*------------------------------------*\
+//    #MIXINS
+//\*------------------------------------*/
+
+// TreeFramework has a number of default mixins that the framework, and developers
+// working with it, can make use of.
+
+
+
+
+
+// Create a fully formed type style (sizing and vertical rhythm) by passing in a
+// single value, e.g.:
+//
+// .foo {
+//     @include font-size(10px);
+// }
+//
+@mixin tree-font-size($tree-font-size, $tree-line-height: true) {
+    font-size: $tree-font-size;
+    font-size: ($tree-font-size / $tree-base-font-size) * 1rem;
+
+    @if $tree-line-height == true {
+        line-height: ceil($tree-font-size / $tree-base-line-height) * ($tree-base-line-height / $tree-font-size);
+    }
+
+}

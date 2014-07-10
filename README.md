@@ -1,7 +1,8 @@
 # Mixins
 
-The `mixins` module is clone of [inuitcss] (https://github.com/inuitcss) -
-[tools.mixins] (https://github.com/inuitcss/tools.mixins) <q>contains a few
-framework mixins that are **required** for using any of the rest of framework</q>.
+The `mixins` module contains a few framework mixins that are **required** for
+using any of the rest of framework.
 
-It is develop and maintained by [Harry Roberts] (https://twitter.com/csswizardry).
+## Credits
+
+* **[inuitcss](https://twitter.com/inuitcss)** Powerful, scalable, Sass-based, BEM, OOCSS framework.

@@ -1,10 +1,10 @@
 {
   "name": "tree-mixins",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "homepage": "https://github.com/treeframework/tools.mixins",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>",
-    "Ilia Kolev <contact@iliakolev.com>"
+    "Ilia Kolev <info@iliakolev.com>"
   ],
   "description": "Default mixins",
   "main": "_mixins.scss",

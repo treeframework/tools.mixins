@@ -46,7 +46,7 @@
 // single value, e.g.:
 //
 // .foo {
-//     @include font-size(10px);
+//     @include tree-font-size(10px);
 // }
 //
 @mixin tree-font-size($tree-font-size, $tree-line-height: true) {

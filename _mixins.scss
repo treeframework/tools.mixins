@@ -24,9 +24,7 @@
             @content;
         }
 
-    }
-
-    @else {
+    } @else {
 
         &:hover,
         &:active,
@@ -93,9 +91,7 @@
 
     @if $tree-line-height == auto {
         line-height: ceil($tree-font-size / $tree-base-line-height) * ($tree-base-line-height / $tree-font-size);
-    }
-
-    @else {
+    } @else {
 
         @if (type-of($tree-line-height) == number or $tree-line-height == inherit or $tree-line-height == normal) {
             line-height: $tree-line-height;

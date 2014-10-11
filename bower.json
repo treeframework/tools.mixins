@@ -1,6 +1,6 @@
 {
   "name": "tree-mixins",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "homepage": "https://github.com/treeframework/tools.mixins",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>",
@@ -15,7 +15,7 @@
     "css"
   ],
   "license": "Apache",
-  "dependencies: {
+  "dependencies": {
     "tree-defaults": "~0.2.4"
   }
 }

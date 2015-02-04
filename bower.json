@@ -1,21 +1,16 @@
 {
   "name": "tree-mixins",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://github.com/treeframework/tools.mixins",
-  "authors": [
-    "Harry Roberts <harry@csswizardry.com>",
-    "Ilia Kolev <info@iliakolev.com>"
-  ],
+  "author": "Ilia Kolev <info@iliakolev.com>",
   "description": "Default mixins",
   "main": "_tools.mixins.scss",
-  "ignore": [
-    "*.md"
-  ],
   "keywords": [
+    "oocss",
     "css"
   ],
-  "license": "Apache",
+  "license": "MIT",
   "dependencies": {
-    "tree-defaults": "~0.2.4"
+    "tree-defaults": "~0.2.5"
   }
 }

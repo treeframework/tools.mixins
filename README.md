@@ -5,7 +5,15 @@ using any of the rest of framework.
 
 Install using Bower:
 
-    $ bower install --save tree-mixins
+```sh
+$ bower install tree-mixins --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-mixins --save
+```
 
 ## Credits
 
